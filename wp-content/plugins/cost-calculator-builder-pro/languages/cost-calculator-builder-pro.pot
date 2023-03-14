@@ -1,0 +1,1326 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cost Calculator Builder PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2022-08-01 06:21+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: templates/v2/admin/settings/stripe.php:27
+msgid " and turn off the setting"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:16
+#: templates/v2/admin/settings/woo-checkout.php:32
+msgid "%Current Woo Product%"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:98
+msgid "(i.e. for date of birth)"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:61
+msgid "- Default Left Value -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:71
+msgid "- Default Right Value -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:11
+#: templates/v1/admin/fields/date-picker-field.php:11
+#: templates/v1/admin/fields/drop-down-with-image-field.php:11
+#: templates/v1/admin/fields/file-upload-field.php:11
+msgid "- Field Description -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:5
+#: templates/v1/admin/fields/date-picker-field.php:5
+#: templates/v1/admin/fields/drop-down-with-image-field.php:5
+#: templates/v1/admin/fields/file-upload-field.php:5
+msgid "- Field Label -"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:28
+msgid "- Field Placeholder -"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:98
+msgid "- File upload price -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:39
+msgid "- Max Value -"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:87
+msgid "- Maximum attached files -"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:31
+msgid "- Maximum file size KB -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:28
+msgid "- Min Value -"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:34
+msgid "- Paste reCAPTCHA v2 Secret Key -"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:27
+msgid "- Paste reCAPTCHA v2 Site Key -"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:51
+msgid "- Paste reCAPTCHA v3 Secret Key -"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:44
+msgid "- Paste reCAPTCHA v3 Site Key -"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:33
+msgid "- PayPal Email -"
+msgstr ""
+
+#: templates/v1/admin/settings/notice.php:7
+msgid "- Required field notice -"
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:28
+msgid "- Select A Default Value -"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:65
+msgid "- Select Action -"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:72
+msgid "- Select Calculator Field -"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:41
+msgid "- Select Currency Symbol -"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:26
+msgid "- Select Hook For Showing Calculator -"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:62
+msgid "- Select Payment method -"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:51
+#: templates/v2/admin/settings/paypal.php:77
+msgid "- Select type of .... -"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-drop-down-with-image.php:28
+#: templates/v1/frontend/fields/cost-drop-down-with-image.php:36
+msgid "- Select value -"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:58
+msgid "- Select WooCommerce Field -"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:15
+msgid "- Select WooCommerce Product -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:80
+msgid "- Sign -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:50
+msgid "- Step -"
+msgstr ""
+
+#: templates/v1/admin/settings/stripe.php:28
+msgid "- Stripe Currency Format -"
+msgstr ""
+
+#: templates/v1/admin/settings/stripe.php:14
+msgid "- Stripe Public Key -"
+msgstr ""
+
+#: templates/v1/admin/settings/stripe.php:21
+msgid "- Stripe Secret Key -"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:40
+#: templates/v1/admin/settings/default-form.php:29
+msgid "- Type Button Text -"
+msgstr ""
+
+#: templates/v1/admin/settings/default-form.php:13
+msgid "- Type Email -"
+msgstr ""
+
+#: templates/v1/admin/settings/default-form.php:20
+msgid "- Type Subject -"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:87
+msgid "- Unit -"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:48
+#: templates/v2/admin/settings/paypal.php:73
+#: templates/v2/admin/general-settings/paypal.php:60
+msgid "Account Type"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:52
+#: templates/v2/admin/settings/woo-products.php:80
+msgid "Action"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:141
+msgid "Add new"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:91
+msgid "Add New Link"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:126
+msgid "Add new link"
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:124
+msgid "Add Row"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:66
+#: templates/v1/frontend/partials/woo-checkout.php:5
+#: templates/v1/frontend/partials/calc-payments.php:130
+#: templates/v2/frontend/partials/calc-form-payments.php:69
+#: templates/v2/frontend/partials/woo-checkout.php:4
+#: templates/v2/frontend/partials/calc-payments.php:127
+msgid "Add To Cart"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:68
+#: templates/v2/admin/fields/date-picker-field.php:108
+#: templates/v2/admin/fields/drop-down-with-image-field.php:83
+#: templates/v2/admin/fields/file-upload-field.php:135
+msgid "Additional Classes"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:130
+#: templates/v1/admin/fields/date-picker-field.php:115
+#: templates/v1/admin/fields/drop-down-with-image-field.php:131
+#: templates/v1/admin/fields/file-upload-field.php:139
+msgid "Additional classes"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:29
+#: templates/v2/admin/settings/woo-products.php:43
+msgid "After Add To Cart Form"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:31
+#: templates/v2/admin/settings/woo-products.php:45
+msgid "After Product Meta"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:33
+#: templates/v2/admin/settings/woo-products.php:47
+msgid "After Single Product (At the Bottom of Product)"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:32
+#: templates/v2/admin/settings/woo-products.php:46
+msgid "After Single Product Summary (Before Tabs)"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:15
+#: templates/v2/admin/settings/woo-products.php:28
+msgid "All Categories"
+msgstr ""
+
+#: templates/v2/admin/settings/paypal.php:28
+msgid "and turn off the setting"
+msgstr ""
+
+#: templates/v2/admin/general-settings/email.php:17
+#: templates/v2/admin/general-settings/stripe.php:17
+#: templates/v2/admin/general-settings/paypal.php:17
+msgid "Apply for all calculators"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:28
+#: templates/v2/admin/settings/woo-products.php:42
+msgid "Before Add To Cart Form"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:30
+#: templates/v2/admin/settings/woo-products.php:44
+msgid "Before Product Meta"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:27
+#: templates/v2/admin/settings/woo-products.php:41
+msgid "Before Single Product (At the Top of Product)"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:38
+#: templates/v1/admin/settings/default-form.php:27
+#: templates/v2/admin/settings/send-form.php:70
+#: templates/v2/admin/general-settings/email.php:37
+msgid "Button Text"
+msgstr ""
+
+#: includes/classes/payments/CCBStripe.php:61
+#: includes/classes/payments/CCBPayPal.php:69
+msgid "Calculator"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:53
+#: templates/v2/admin/settings/woo-products.php:81
+msgid "Calculator Field"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:16
+msgid "Calculator for WooCommerce Products"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:23
+#: templates/v2/admin/settings/woo-products.php:36
+msgid "Calculator Position"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:106
+#: templates/v2/admin/fields/date-picker-field.php:56
+msgid "Calendar Option"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:137
+#: templates/v1/admin/fields/date-picker-field.php:123
+#: templates/v1/admin/fields/drop-down-with-image-field.php:138
+#: templates/v1/admin/fields/file-upload-field.php:146
+#: templates/v2/admin/fields/multi-range-field.php:5
+#: templates/v2/admin/fields/date-picker-field.php:5
+#: templates/v2/admin/fields/drop-down-with-image-field.php:5
+#: templates/v2/admin/fields/file-upload-field.php:5
+msgid "Cancel"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:27
+#: templates/v2/admin/general-settings/captcha.php:5
+msgid "Captcha"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:51
+#: templates/v2/frontend/fields/cost-file-upload.php:49
+msgid "Choose file"
+msgstr ""
+
+#: templates/v1/admin/condition.php:13
+msgid "Click Element for adding"
+msgstr ""
+
+#: templates/v2/admin/condition.php:7
+msgid "Click elements for adding"
+msgstr ""
+
+#: includes/classes/CCBContactForm.php:95
+msgid "Client Info"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:48
+#: templates/v1/admin/settings/stripe.php:40
+#: templates/v1/admin/settings/paypal.php:66
+#, php-format
+msgid ""
+"Connection shortcode for linking a selling service or product to online "
+"payment systems. %s will be changed into total. <a href=\"%s\">Read more</a>"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:85
+#: templates/v2/admin/settings/stripe.php:85
+#: templates/v2/admin/settings/paypal.php:115
+msgid ""
+"Connection shortcode for linking a selling service or product to online "
+"payment systems. Total name will be changed into total."
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:5
+#: templates/v2/admin/settings/send-form.php:15
+msgid "Contact Form"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:79
+msgid "Contact Form Content"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form.php:71
+msgid ""
+"Contact form settings aren’t configured completely. Please set the necessary "
+"data in the Calculator Settings > Default Contact Form. "
+msgstr ""
+
+#: includes/classes/CCBProAdminNotices.php:12
+msgid ""
+"Cost Calculator Builder plugin update required. We added new features, and "
+"need to update your plugin to the latest version!"
+msgstr ""
+
+#. Name of the plugin
+msgid "Cost Calculator Builder PRO"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:37
+#: templates/v1/frontend/partials/calc-payments.php:91
+#: templates/v2/frontend/partials/calc-form-payments.php:32
+#: templates/v2/frontend/partials/calc-payments.php:46
+msgid "Credit Card"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:17
+#: templates/v1/frontend/partials/calc-payments.php:60
+#: templates/v2/frontend/partials/calc-form-payments.php:19
+#: templates/v2/frontend/partials/calc-payments.php:32
+msgid "Credit Card details"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:38
+#: templates/v2/admin/settings/stripe.php:49
+#: templates/v2/admin/settings/paypal.php:61
+#: templates/v2/admin/general-settings/stripe.php:37
+#: templates/v2/admin/general-settings/paypal.php:48
+msgid "Currency"
+msgstr ""
+
+#: templates/v1/admin/settings/stripe.php:26
+msgid "Currency Format"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:43
+#: templates/v2/admin/fields/drop-down-with-image-field.php:49
+#: templates/v2/admin/fields/file-upload-field.php:110
+msgid "Currency Sign"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:79
+#: templates/v2/admin/fields/multi-range-field.php:148
+msgid "Currency Symbol"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:102
+#: templates/v1/admin/fields/drop-down-with-image-field.php:44
+#: templates/v1/admin/fields/file-upload-field.php:111
+msgid "Currency Symbol On Total Description"
+msgstr ""
+
+#: includes/classes/payments/CCBPayPal.php:62
+msgid "Customer"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:3
+msgid "Date Picker"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:67
+msgid "Datepicking is allowed from current date +"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:15
+#: templates/v2/admin/settings/send-form.php:49
+msgid "Default"
+msgstr ""
+
+#: templates/v1/admin/settings/default-form.php:3
+msgid "Default Contact Form"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:69
+#: templates/v2/admin/fields/multi-range-field.php:136
+msgid "Default End Value"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:124
+#: templates/v1/admin/fields/date-picker-field.php:99
+#: templates/v1/admin/fields/drop-down-with-image-field.php:77
+#: templates/v1/admin/fields/file-upload-field.php:133
+msgid "Default hidden"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:59
+#: templates/v2/admin/fields/multi-range-field.php:126
+msgid "Default Start Value"
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:26
+#: templates/v2/admin/fields/drop-down-with-image-field.php:150
+msgid "Default Value"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:10
+#: templates/v1/admin/fields/date-picker-field.php:10
+#: templates/v1/admin/fields/drop-down-with-image-field.php:10
+#: templates/v1/admin/fields/file-upload-field.php:10
+#: templates/v2/admin/fields/multi-range-field.php:31
+#: templates/v2/admin/fields/date-picker-field.php:28
+#: templates/v2/admin/fields/drop-down-with-image-field.php:37
+#: templates/v2/admin/fields/file-upload-field.php:22
+msgid "Description"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:16
+#: templates/v1/admin/fields/date-picker-field.php:16
+#: templates/v1/admin/fields/drop-down-with-image-field.php:16
+#: templates/v1/admin/fields/file-upload-field.php:16
+msgid "Description position"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:97
+msgid "Disable for no restrictions set"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:57
+msgid "Disable for no restrictions set (i.e. for date of birth)"
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:85
+msgid "Drop Down Options"
+msgstr ""
+
+#: templates/v2/admin/condition.php:6
+msgid "Elements"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form.php:40
+#: templates/v1/frontend/partials/calc-payments.php:20
+#: templates/v1/admin/settings/default-form.php:11
+#: templates/v1/admin/settings/paypal.php:31
+#: templates/v2/frontend/partials/calc-form.php:43
+#: templates/v2/frontend/partials/calc-payments.php:93
+#: templates/v2/admin/settings/send-form.php:58
+#: templates/v2/admin/settings/paypal.php:55
+#: templates/v2/admin/general-settings/email.php:5
+#: templates/v2/admin/general-settings/email.php:25
+#: templates/v2/admin/general-settings/paypal.php:42
+msgid "Email"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:7
+msgid "Enable Calculator for WooCommerce Products"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:7
+msgid "Enable Contact Form"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:48
+msgid "Enable Payment Gateways"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:8
+msgid "Enable PayPal"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:7
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: templates/v1/admin/settings/stripe.php:7
+msgid "Enable Stripe"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:7
+msgid "Enable WooCommerce Checkout"
+msgstr ""
+
+#: templates/v2/admin/fields/file-upload-field.php:48
+msgid "Enter attached value"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:71
+#: templates/v2/admin/general-settings/email.php:38
+msgid "Enter button text"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:80
+msgid "Enter content"
+msgstr ""
+
+#: templates/v2/admin/general-settings/stripe.php:38
+msgid "Enter currency"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:50
+msgid "Enter currency for payment"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:149
+msgid "Enter currency symbol"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:32
+#: templates/v2/admin/fields/date-picker-field.php:29
+#: templates/v2/admin/fields/drop-down-with-image-field.php:38
+#: templates/v2/admin/fields/file-upload-field.php:23
+msgid "Enter field description"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:24
+#: templates/v2/admin/fields/date-picker-field.php:15
+#: templates/v2/admin/fields/drop-down-with-image-field.php:30
+#: templates/v2/admin/fields/file-upload-field.php:15
+msgid "Enter field name"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:21
+msgid "Enter field placeholder"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:58
+#: templates/v2/frontend/fields/cost-file-upload.php:56
+msgid "Enter file url"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:91
+msgid "Enter max range"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:80
+msgid "Enter min range"
+msgstr ""
+
+#: templates/v2/admin/settings/paypal.php:56
+#: templates/v2/admin/general-settings/paypal.php:43
+msgid "Enter PayPal email"
+msgstr ""
+
+#: templates/v2/admin/fields/file-upload-field.php:61
+msgid "Enter price"
+msgstr ""
+
+#: templates/v2/admin/general-settings/captcha.php:32
+msgid "Enter secret key"
+msgstr ""
+
+#: templates/v2/admin/general-settings/captcha.php:26
+msgid "Enter site key"
+msgstr ""
+
+#: templates/v2/admin/fields/file-upload-field.php:32
+msgid "Enter size"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:104
+msgid "Enter step"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:38
+#: templates/v2/admin/general-settings/stripe.php:26
+msgid "Enter stripe public key"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:44
+#: templates/v2/admin/general-settings/stripe.php:32
+msgid "Enter stripe secret key"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:65
+#: templates/v2/admin/general-settings/email.php:32
+msgid "Enter subject"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:115
+msgid "Enter unit"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:128
+#: templates/v2/admin/fields/multi-range-field.php:138
+msgid "Enter value"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:131
+#: templates/v1/admin/fields/date-picker-field.php:116
+#: templates/v1/admin/fields/drop-down-with-image-field.php:132
+#: templates/v1/admin/fields/file-upload-field.php:140
+msgid "Enter your classes"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:59
+#: templates/v2/admin/general-settings/email.php:26
+msgid "Enter your email"
+msgstr ""
+
+#: includes/classes/payments/CCBStripe.php:162
+msgid "Error occurred. Please try again"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:61
+#: templates/v2/admin/fields/file-upload-field.php:80
+msgid "file formats selected"
+msgstr ""
+
+#: templates/v2/admin/fields/file-upload-field.php:3
+msgid "File Upload"
+msgstr ""
+
+#: templates/v2/admin/fields/file-upload-field.php:59
+msgid "File upload price $"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:96
+msgid "File upload price$ (optional)"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:68
+#: templates/v2/frontend/fields/cost-file-upload.php:64
+msgid "files uploaded"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:75
+#: templates/v2/admin/fields/file-upload-field.php:97
+msgid "For enabling all file types, you need to edit wp-config.php file."
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:34
+#: templates/v2/admin/settings/stripe.php:26
+#: templates/v2/admin/settings/paypal.php:27
+msgid "Global settings applied"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:37
+#: templates/v2/admin/settings/stripe.php:29
+#: templates/v2/admin/settings/paypal.php:30
+msgid "Go to Settings"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:52
+#: templates/v2/admin/fields/date-picker-field.php:83
+#: templates/v2/admin/fields/drop-down-with-image-field.php:76
+#: templates/v2/admin/fields/file-upload-field.php:128
+msgid "Hidden by Default"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:42
+msgid "Hide WooCommerce Add To Cart Form"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://stylemixthemes.com/cost-calculator-plugin/"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:27
+#: templates/v2/admin/settings/paypal.php:28
+msgid "If you want to set up a specific calculator, please go to"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:35
+msgid ""
+"If you want to set up a specific calculator, please go to Settings → Email "
+"and turn off the setting “Apply for all calculators”"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:104
+msgid "Image"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:3
+msgid "Image Dropdown"
+msgstr ""
+
+#: templates/v1/admin/notice.php:6 templates/v2/admin/notice.php:6
+msgid "Install"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:106
+#: templates/v2/admin/settings/woo-products.php:147
+msgid "Install WooCommerce"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:102
+msgid "Label"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:47
+#: templates/v2/admin/settings/woo-products.php:72
+msgid "Link WooCommerce Meta to Calculator Fields:"
+msgstr ""
+
+#: templates/v2/admin/general-settings/paypal.php:65
+msgid "Live"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:14
+#: templates/v2/admin/fields/drop-down-with-image-field.php:15
+msgid "Main settings"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:38
+#: templates/v2/frontend/fields/cost-file-upload.php:33
+msgid "max"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:82
+#: templates/v2/admin/fields/file-upload-field.php:46
+msgid "Maximum attached files"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:24
+#: templates/v2/admin/fields/file-upload-field.php:30
+msgid "Maximum file size MB"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:37
+#: templates/v2/admin/fields/multi-range-field.php:89
+msgid "Maximum Range Value"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form.php:54
+#: templates/v1/frontend/partials/calc-payments.php:34
+#: templates/v2/frontend/partials/calc-form.php:61
+#: templates/v2/frontend/partials/calc-payments.php:111
+msgid "Message"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:42
+msgid "minimum date for selection"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:26
+#: templates/v2/admin/fields/multi-range-field.php:78
+msgid "Minimum Range Value"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:3
+msgid "Multi Range"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form.php:33
+#: templates/v1/frontend/partials/calc-payments.php:13
+#: templates/v1/admin/fields/multi-range-field.php:4
+#: templates/v1/admin/fields/date-picker-field.php:4
+#: templates/v1/admin/fields/drop-down-with-image-field.php:4
+#: templates/v1/admin/fields/file-upload-field.php:4
+#: templates/v2/frontend/partials/calc-form.php:34
+#: templates/v2/frontend/partials/calc-payments.php:84
+#: templates/v2/admin/fields/multi-range-field.php:23
+#: templates/v2/admin/fields/date-picker-field.php:14
+#: templates/v2/admin/fields/drop-down-with-image-field.php:29
+#: templates/v2/admin/fields/file-upload-field.php:14
+msgid "Name"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:109
+#: templates/v2/admin/fields/date-picker-field.php:61
+msgid "No range"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:91
+msgid "Not Saved!"
+msgstr ""
+
+#: templates/v2/admin/general-settings/captcha.php:17
+#: templates/v2/admin/general-settings/paypal.php:64
+#: templates/v2/admin/fields/drop-down-with-image-field.php:154
+msgid "Not selected"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form.php:70
+#: templates/v1/frontend/partials/calc-payments.php:42
+msgid "One or more fields have an error. Please check and try again!"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:77
+msgid "Only enabled online payment systems will be available to choose."
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:122
+msgid "Option label"
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:91
+msgid "Option Label ..."
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:128
+msgid "Option Value"
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:98
+msgid "Option Value ..."
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:15
+#: templates/v2/admin/fields/drop-down-with-image-field.php:18
+msgid "Options"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:92
+msgid "Options tab contains errors, check the fields!"
+msgstr ""
+
+#: templates/v2/admin/settings/send-form.php:94
+#: templates/v2/admin/settings/send-form.php:104
+#: templates/v2/admin/settings/send-form.php:111
+msgid "Payment Getaways"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:9
+#: templates/v1/frontend/partials/calc-payments.php:50
+#: templates/v2/frontend/partials/calc-form-payments.php:9
+#: templates/v2/frontend/partials/calc-payments.php:21
+msgid "Payment methods"
+msgstr ""
+
+#: includes/classes/payments/CCBStripe.php:152
+msgid "Payment Received! Thank You for Payment"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:27
+#: templates/v1/frontend/partials/calc-payments.php:74
+#: templates/v2/frontend/partials/calc-form-payments.php:42
+#: templates/v2/frontend/partials/calc-payments.php:56
+#: templates/v2/admin/settings/paypal.php:9
+#: templates/v2/admin/settings/paypal.php:19
+#: templates/v2/admin/general-settings/paypal.php:5
+msgid "PayPal"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:15
+msgid "Paypal Ipn Setup"
+msgstr ""
+
+#: templates/v2/admin/settings/paypal.php:39
+#: templates/v2/admin/general-settings/paypal.php:26
+msgid "PayPal IPN Setup:"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form.php:47
+#: templates/v1/frontend/partials/calc-payments.php:27
+#: templates/v2/frontend/partials/calc-form.php:52
+#: templates/v2/frontend/partials/calc-payments.php:102
+msgid "Phone"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:26
+#: templates/v2/admin/fields/date-picker-field.php:20
+msgid "Placeholder"
+msgstr ""
+
+#: templates/v1/admin/notice.php:3 templates/v2/admin/notice.php:3
+msgid ""
+"Please install Cost-Calculator-Builder from <a href=\"https://wordpress."
+"org/plugins/cost-calculator-builder/\">WordPress.org</a>"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-drop-down-with-image.php:45
+#: templates/v2/frontend/fields/cost-drop-down-with-image.php:33
+msgid "Price"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:12
+#: templates/v2/admin/settings/woo-checkout.php:27
+msgid "Product"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:12
+#: templates/v2/admin/settings/woo-products.php:24
+msgid "Product Category"
+msgstr ""
+
+#: templates/v1/admin/settings/stripe.php:12
+#: templates/v2/admin/settings/stripe.php:37
+#: templates/v2/admin/general-settings/stripe.php:25
+msgid "Public Key"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:71
+#: templates/v1/frontend/partials/calc-payments.php:136
+#: templates/v2/frontend/partials/calc-form-payments.php:72
+#: templates/v2/frontend/partials/calc-payments.php:130
+msgid "Purchase"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:48
+#: templates/v2/admin/fields/multi-range-field.php:102
+msgid "Range Step"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:85
+#: templates/v2/admin/fields/multi-range-field.php:113
+msgid "Range Unit"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:41
+#: templates/v1/admin/fields/file-upload-field.php:76
+#: templates/v2/admin/settings/woo-checkout.php:86
+#: templates/v2/admin/settings/stripe.php:86
+#: templates/v2/admin/settings/paypal.php:116
+#: templates/v2/admin/fields/file-upload-field.php:41
+#: templates/v2/admin/fields/file-upload-field.php:98
+msgid "Read more"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:13
+#: templates/v2/admin/general-settings/captcha.php:13
+msgid "reCAPTCHA version"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:24
+#: templates/v2/admin/settings/woo-checkout.php:41
+msgid "Redirect after Submits"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:40
+#: templates/v1/admin/fields/drop-down-with-image-field.php:66
+#: templates/v1/admin/fields/file-upload-field.php:122
+#: templates/v2/admin/fields/date-picker-field.php:74
+#: templates/v2/admin/fields/drop-down-with-image-field.php:58
+#: templates/v2/admin/fields/file-upload-field.php:119
+msgid "Required"
+msgstr ""
+
+#: templates/v1/admin/settings/notice.php:4
+msgid "Required Field Notice"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:113
+#: templates/v1/admin/fields/drop-down-with-image-field.php:55
+#: templates/v2/admin/fields/multi-range-field.php:61
+#: templates/v2/admin/fields/drop-down-with-image-field.php:67
+msgid "Round Value"
+msgstr ""
+
+#: templates/v2/admin/general-settings/paypal.php:66
+msgid "Sandbox"
+msgstr ""
+
+#: templates/v1/admin/fields/multi-range-field.php:140
+#: templates/v1/admin/fields/date-picker-field.php:126
+#: templates/v1/admin/fields/drop-down-with-image-field.php:141
+#: templates/v1/admin/fields/file-upload-field.php:149
+#: templates/v2/admin/general-settings/email.php:44
+#: templates/v2/admin/general-settings/captcha.php:38
+#: templates/v2/admin/general-settings/stripe.php:44
+#: templates/v2/admin/general-settings/paypal.php:74
+#: templates/v2/admin/fields/multi-range-field.php:6
+#: templates/v2/admin/fields/date-picker-field.php:6
+#: templates/v2/admin/fields/drop-down-with-image-field.php:6
+#: templates/v2/admin/fields/file-upload-field.php:6
+msgid "Save"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:32
+#: templates/v1/admin/settings/recaptcha.php:49
+#: templates/v1/admin/settings/stripe.php:19
+#: templates/v2/admin/settings/stripe.php:43
+#: templates/v2/admin/general-settings/captcha.php:31
+#: templates/v2/admin/general-settings/stripe.php:31
+msgid "Secret Key"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:104
+msgid "Select Action"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:115
+msgid "Select Calculator Field"
+msgstr ""
+
+#: templates/v2/admin/general-settings/paypal.php:52
+msgid "Select currency sign"
+msgstr ""
+
+#: templates/v2/admin/settings/paypal.php:65
+msgid "Select Currency Symbol"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:62
+#: templates/v2/admin/fields/file-upload-field.php:83
+msgid "Select File formats"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:12
+#: templates/v2/admin/settings/send-form.php:45
+msgid "Select Form"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:40
+msgid "Select Hook For Showing Calculator"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:52
+msgid "Select Online Payment Gateways"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:74
+#: templates/v2/admin/settings/stripe.php:74
+#: templates/v2/admin/settings/paypal.php:104
+msgid "Select totals"
+msgstr ""
+
+#: templates/v2/frontend/fields/cost-drop-down-with-image.php:17
+#: templates/v2/frontend/fields/cost-drop-down-with-image.php:26
+msgid "Select value"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:93
+msgid "Select WooCommerce Field"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:31
+msgid "Select WooCommerce Product"
+msgstr ""
+
+#: templates/v2/admin/fields/file-upload-field.php:39
+msgid "Server file size limit: "
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:41
+msgid "Set 0 for current date to be a"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:72
+#: templates/v1/admin/fields/date-picker-field.php:81
+#: templates/v2/admin/fields/date-picker-field.php:47
+msgid "Set 0 for current date to be a minimum date for selection"
+msgstr ""
+
+#: templates/v2/admin/fields/multi-range-field.php:69
+#: templates/v2/admin/fields/date-picker-field.php:109
+#: templates/v2/admin/fields/drop-down-with-image-field.php:84
+#: templates/v2/admin/fields/file-upload-field.php:136
+msgid "Set Additional Classes"
+msgstr ""
+
+#: templates/v2/admin/settings/paypal.php:28
+msgid "Settings → PayPal"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:27
+msgid "Settings → Stripe"
+msgstr ""
+
+#: templates/v1/admin/settings/recaptcha.php:25
+#: templates/v1/admin/settings/recaptcha.php:42
+#: templates/v2/admin/general-settings/captcha.php:25
+msgid "Site Key"
+msgstr ""
+
+#: includes/classes/CCBContactForm.php:9
+#: includes/classes/payments/CCBWooCheckout.php:18
+msgid "Something went wrong"
+msgstr ""
+
+#: templates/v1/frontend/partials/woo-checkout.php:2
+msgid "Something went wrong, please try again!"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:36
+msgid "Starts from the current date"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:8
+#: templates/v2/admin/settings/stripe.php:18
+#: templates/v2/admin/general-settings/stripe.php:5
+msgid "Stripe"
+msgstr ""
+
+#. Author of the plugin
+msgid "Stylemix Themes"
+msgstr ""
+
+#: templates/v1/admin/settings/default-form.php:18
+#: templates/v2/admin/settings/send-form.php:64
+#: templates/v2/admin/general-settings/email.php:31
+msgid "Subject"
+msgstr ""
+
+#: templates/v1/frontend/pro-features.php:26
+#: templates/v2/frontend/pro-features.php:26
+#: templates/v1/frontend/partials/calc-form.php:5
+#: templates/v1/frontend/partials/calc-form.php:65
+#: templates/v2/frontend/partials/calc-form.php:4
+#: templates/v2/frontend/partials/calc-form.php:77
+msgid "Submit"
+msgstr ""
+
+#: includes/classes/payments/CCBWooCheckout.php:41
+msgid "success"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:48
+#: templates/v2/admin/fields/file-upload-field.php:71
+msgid "Supported file formats"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:34
+#: templates/v2/frontend/fields/cost-file-upload.php:29
+msgid "Supported file formats:"
+msgstr ""
+
+#: includes/classes/CCBContactForm.php:109
+#: templates/v1/frontend/partials/calc-form.php:72
+#: templates/v1/frontend/partials/calc-payments.php:45
+msgid "Thank you for your message. It has been sent."
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:45
+msgid "to Cart Page"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:29
+msgid "to Cart page"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:49
+msgid "to Checkout Page"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:34
+msgid "to Checkout page"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:102
+#: templates/v2/admin/settings/woo-products.php:143
+msgid ""
+"To use WooProduct and WooCheckout, please install and activate WooCommerce "
+"Plugin"
+msgstr ""
+
+#: templates/v2/admin/fields/date-picker-field.php:92
+msgid "Toggle Date Picking Restrictions"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:51
+msgid "Toggle Datepicking restrictions"
+msgstr ""
+
+#: includes/classes/CCBContactForm.php:63
+msgid "Total descriptions"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-checkout.php:41
+#: templates/v1/admin/settings/stripe.php:33
+#: templates/v1/admin/settings/paypal.php:58
+#: templates/v2/admin/settings/woo-checkout.php:57
+#: templates/v2/admin/settings/stripe.php:57
+#: templates/v2/admin/settings/paypal.php:87
+msgid "Total Field Element"
+msgstr ""
+
+#: includes/classes/CCBPayments.php:114
+msgid "Total must be more then 0"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:71
+#: templates/v2/admin/settings/stripe.php:71
+#: templates/v2/admin/settings/paypal.php:101
+msgid "totals selected"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:63
+#: templates/v2/frontend/fields/cost-file-upload.php:58
+msgid "Upload"
+msgstr ""
+
+#: templates/v1/frontend/fields/cost-file-upload.php:54
+#: templates/v2/frontend/fields/cost-file-upload.php:50
+msgid "Upload from URL"
+msgstr ""
+
+#: templates/v1/admin/fields/file-upload-field.php:39
+msgid "Upload max filesize limit on your Server: "
+msgstr ""
+
+#: templates/v2/admin/settings/paypal.php:48
+#: templates/v2/admin/general-settings/paypal.php:35
+msgid "Use the URL for IPN Listener Settings"
+msgstr ""
+
+#: templates/v2/admin/fields/drop-down-with-image-field.php:103
+msgid "Value"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:87
+#: templates/v2/admin/fields/date-picker-field.php:51
+msgid "Value must be integer"
+msgstr ""
+
+#: templates/v1/admin/settings/send-form.php:31
+#: templates/v2/admin/settings/send-form.php:82
+msgid "will be changed into total"
+msgstr ""
+
+#: templates/v1/admin/fields/date-picker-field.php:108
+#: templates/v2/admin/fields/date-picker-field.php:60
+msgid "With range"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:9
+msgid "Woo Checkout"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:6
+msgid "Woo Products"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-products.php:60
+msgid "WooCommerce Add To Cart Form"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:19
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: templates/v1/frontend/partials/calc-form-payments.php:48
+#: templates/v1/frontend/partials/calc-payments.php:109
+#: templates/v2/frontend/partials/calc-form-payments.php:52
+#: templates/v2/frontend/partials/calc-payments.php:66
+msgid "Woocommerce Checkout"
+msgstr ""
+
+#: templates/v1/admin/settings/woo-products.php:51
+#: templates/v2/admin/settings/woo-products.php:79
+msgid "WooCommerce Meta"
+msgstr ""
+
+#: templates/v2/admin/settings/woo-checkout.php:101
+#: templates/v2/admin/settings/woo-products.php:142
+msgid "WooCommerce not installed"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WP Cost Calculator helps you to build any type of estimation forms on a few "
+"easy steps. The plugin offers its own calculation builder."
+msgstr ""
+
+#: templates/v1/admin/fields/drop-down-with-image-field.php:86
+msgid "You can upload JPG, PNG files max. 5mb"
+msgstr ""
+
+#: templates/v1/admin/settings/paypal.php:18
+msgid "You need to use this URL for your IPN Listener Settings:"
+msgstr ""
+
+#: includes/classes/payments/CCBStripe.php:109
+msgid "Your card was denied, please provide a new payment method!"
+msgstr ""
+
+#: templates/v1/admin/condition.php:12
+msgid "Your Elements"
+msgstr ""
+
+#: templates/v2/admin/settings/stripe.php:27
+msgid "“Apply for all calculators”"
+msgstr ""

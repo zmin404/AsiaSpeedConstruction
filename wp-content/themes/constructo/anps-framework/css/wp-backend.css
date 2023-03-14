@@ -1,0 +1,328 @@
+/*backend - custom heading options*/
+.anps_heading_enable > div {
+    padding: 20px;
+}
+
+.anps_heading_enable .align-left {
+    float: left;
+
+}
+
+
+p {
+    line-height: 1.7em;
+    margin: 0 0 10px;
+}
+
+table.page-title td, .min300 td {
+    min-width: 300px;
+    padding-bottom: 10px;
+}
+
+.sbg_container label {
+	min-width: 300px;
+}
+
+.sbg_container label {
+    display: inline-block;
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+.sbg_container select {
+	 margin-bottom: 10px;
+}
+
+.setting_text {
+    display: inline-block;
+    min-width: 300px;
+}
+
+.setting_input {
+    display: inline;
+}
+#slide_template {
+	min-width: 150px;
+}
+
+/* select 2 anps widgets font awesome */
+select.anps_widget_fontawesome {
+    font-family: FontAwesome;
+}
+.anps_select2.select2-container{
+    width: 100%!important;
+}
+
+.select2-dropdown.anps_select2 {
+    /* width: 100%!important; */
+    width: 410px!important;
+    max-width: 410px;
+}
+
+.anps_select2 .select2-results li {
+    font-family: FontAwesome;
+    width: 125px;
+    padding: 5px 10px;
+    border: 1px solid #f2f2f2;
+    margin: 1px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.anps_select2 .select2-selection__rendered{
+    font-family: FontAwesome;
+}
+
+.anps_select2 .select2-results__options {
+    width: 400px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    }
+
+.widgets-holder-wrap .widget-inside {
+    position: relative;
+}
+
+
+.anps_upload input {
+    float: left;
+    max-width: 50%!important;
+}
+/* additional button */
+.envoo-admin-content {
+    position: relative;
+}
+
+.submit-right {
+    top: 60px;
+    right: 0px;
+    position: absolute;
+
+}
+
+.submit-right button.fixsave {
+    left: 100%;
+    position: absolute;
+    top:0;
+    transform: translateY(100px);
+    margin: 0;
+    font-family: fontawesome;
+    border: none;
+    padding: 14px 16px;
+    background: #008dce;
+    color: #fff;
+    transition: opacity 0.1s ease-in-out, padding 0.1s ease-in-out, left 0s ease-in-out;
+    cursor: pointer;
+    max-width: 44px;
+}
+
+.submit-right button.fixsave:before {
+    content: "Save ";
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: -50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    top: 12px;
+}
+
+.submit-right button.fixsave:hover {
+    max-width: 144px;
+    padding-left: 50px;
+}
+
+.submit-right button.fixsave:hover:before {
+    opacity: 1;
+    left: 0;
+}
+
+
+span.unit {
+    line-height: 38px;
+    padding-left: 10px;
+}
+.input.two-line-label label {
+    min-height: 36px;
+    padding-bottom: 5px;
+}
+
+
+/* revolution slider update message */
+tr[data-slug="slider-revolution"] + .plugin-update-tr .update-message.installer-q-icon {
+    display: none;
+}
+
+/*!
+ * Iconpicker v1.0.0
+ *
+ * Author: Anpsthemes
+ */
+
+.anps-iconpicker-list-wrapper {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: none;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    z-index: 999999;
+}
+
+.anps-iconpicker-list {
+    max-height: 225px;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+
+.anps-iconpicker-list:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.anps-iconpicker-list__item {
+    list-style: none;
+    float: left;
+    height: 47px;
+    margin-bottom: 0;
+    position: relative;
+    width: 16.66666%;
+}
+
+.anps-iconpicker-list .anps-selected,
+.anps-iconpicker-list__item:hover {
+    background-color: #00a0d2;
+    color: #fff;
+}
+
+.anps-iconpicker-list__item:hover {
+    cursor: pointer;
+}
+
+body .anps-iconpicker-list .anps-selected {
+    cursor: default;
+}
+
+.anps-iconpicker-list__title {
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    font-weight: bold;
+    padding: 3px 10px;
+    width: 100%;
+}
+
+.anps-iconpicker-list i {
+    font-size: 21px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.anps-iconpicker-list span { display: none; }
+
+.anps-iconpicker-search {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.anps-iconpicker-search input {
+    box-sizing: border-box;
+    padding: 7px 12px;
+    width: 100%;
+}
+
+.anps-iconpicker {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 32px;
+    position: relative;
+}
+
+.anps-iconpicker input { display: none; }
+
+.anps-iconpicker button {
+    background-color: #fff;
+    border: none;
+    border-left: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 15px;
+    outline: none;
+}
+
+.anps-iconpicker button:hover,
+.anps-iconpicker button:focus,
+.anps-current-picker button {
+    background-color: #f1f1f1;
+}
+
+.anps-current-picker {
+    border-color: #aaa;
+}
+
+.anps-iconpicker i {
+    color: #333;
+    left: 0;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+}
+
+.anps-iconpicker > i[class*="anps-icon-"] {
+    background-size: 15px 15px;
+}
+
+/* Anps Repeater */
+
+.anps-repeat-item {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin-bottom: 49px;
+    margin-top: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.anps-repeat-item .anps-repeat-add {
+    display: none;
+}
+
+.anps-repeat-item:last-of-type .anps-repeat-add {
+    display: inline-block;
+}
+
+.anps-repeat-item:only-of-type .anps-repeat-remove {
+    display: none;
+}
+
+.anps-repeat-buttons {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-top: none;
+    position: absolute;
+    right: -1px;
+    text-align: center;
+    top: 100%;
+    width: 85px;
+}
+
+.anps-repeat-buttons button {
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+}

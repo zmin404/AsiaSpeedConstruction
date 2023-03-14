@@ -1,0 +1,6 @@
+<wpml-config>
+    <admin-texts>
+        <key name="anps_menu_button_text"/>
+        <key name="anps_menu_button_url"/>
+    </admin-texts>
+</wpml-config>

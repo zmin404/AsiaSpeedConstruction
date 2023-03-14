@@ -1,0 +1,1337 @@
+.onehalf
+{
+    width: 50%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+.onethird
+{
+    width: 33.3%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+.twothirds
+{
+    width: 66.6%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+.onequarter
+{
+    width: 25%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+.onefifth
+{
+    width: 20%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+.threequarters, .threequarters
+{
+    width: 75%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+.wninety
+{
+    width: 90%!important;
+    float: left;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+.fullwidth
+{
+    width: 100%!important;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+    padding-top: 10px;
+}
+
+.last:after, .newln:before, .first:before
+{
+content: "";
+clear:both;
+}
+
+.addspace {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* Never use together with other classes, only for clearing of EMPTY divs:
+It is the only part of themes css, that uses !important. */
+.clearfix {
+  line-height: 0!important;
+  padding: 0!important;
+  margin: 0!important;
+  font-size: 0!important;
+  clear: both!important;
+}
+
+.wrapbox
+{
+    padding:10px;
+    width: 100%;
+}
+
+.wrapbox.first
+{
+    padding-left: 0;
+}
+
+.wrapbox.last
+{
+    padding-right: 0;
+}
+
+.floatleft
+{
+    float: left!important;
+}
+
+.floatright
+{
+    float: right;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.aligncenter
+{
+    text-align: center;
+}
+
+.text-left {
+    text-align: left!important;
+}
+.envoo-admin {
+    border: 1px solid #e1e1e1;
+    display: table;
+    float: left;
+    font-family: Arial;
+    margin: 30px 10px 10px;
+     width: 98%;
+     max-width: 1250px;
+}
+
+
+.envoo-admin-menu {
+    background: none repeat scroll 0 0 #f6f6f6;
+    display: table-cell;
+    font-size: 12px;
+    margin: 0;
+    padding: 14px 0 0;
+    vertical-align: top;
+    width: 290px;
+}
+
+.clear {
+    clear: both;
+}
+.envoo-admin-menu li {
+    clear: both;
+    margin: 0;
+}
+.max300 {
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.envoo-admin-menu li a {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.envoo-admin-menu li:last-child a { border: none; }
+
+#selected-menu-item, #selected-menu-subitem,
+.envoo-admin-menu li a:hover {
+    border-bottom-color: #008dce;
+}
+
+.envoo-admin-menu a#anpslogo {
+    background: url("../images/anpslogo.png") no-repeat scroll 0 center transparent;
+    border: medium none;
+    float: left;
+    height: 40px;
+    margin: 0 0 0 34px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 85px;
+}
+
+.envoo-admin-menu .fa {
+    color: #008dce;
+    font-size: 15px;
+    padding-right: 15px;
+    transition: color 0s ease-out .2s;
+}
+
+.envoo-admin-menu h2 {
+    border-left: 1px solid #e1e1e1;
+    color: #a3a297;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 43px;
+    padding: 0 0 0 10px;
+}
+.envoo-admin-menu a {
+    display: block;
+    color: #828282;
+    text-decoration: none;
+    border: none;
+    padding-left: 34px;
+    width: 228px;
+    font-size: 14px;
+    line-height: 51px;
+    -webkit-transition: all 200ms ease-out 0.1s;
+    -moz-transition: all 200ms ease-out 0.1s;
+    -o-transition: all 200ms ease-out 0.1s;
+    transition: all 200ms ease-out 0.1s;
+
+
+}
+.envoo-admin-menu a:hover {
+    background: none repeat scroll 0 0 #008dce;
+    color: #fff;
+}
+
+#selected-menu-item, #selected-menu-subitem {
+    background: none repeat scroll 0 0 #008dce;
+    color: #fff;
+}
+.envoo-admin-menu li a:hover .fa,
+.envoo-admin-menu li a:focus .fa,
+#selected-menu-subitem .fa,
+#selected-menu-item .fa { color: inherit; transition: none; }
+.envoo-admin-menu .has-submenu {
+    background: none repeat scroll 0 0 #00608C;
+    color: #fff;
+    line-height: 36px;
+}
+.envoo-admin-menu a.has-submenu:hover {
+    background: none repeat scroll 0 0 #008dce;
+    color: #fff;
+}
+
+#selected-menu-item.has-submenu {
+    background: none repeat scroll 0 0 #00608C;
+    color: #fff;
+    line-height: 36px;
+
+}
+
+.envoo-admin-submenu a {
+    background: transparent;
+    /*padding-left: 40px;*/
+}
+/*.envoo-admin-submenu {
+    display: none;
+}*/
+#selected-menu-item ~ .envoo-admin-submenu, #selected-menu-subitem ~ .envoo-admin-submenu {
+    display: block;
+}
+.envoo-admin-content {
+    background: #fff;
+    border: none;
+    min-width: 509px;
+    width: 100%;
+    display: table-cell;
+    float: left;
+}
+
+
+.envoo-admin-content .content-inner {
+    background: none repeat scroll 0 0 #fff;
+    min-height: 900px;
+    padding: 20px 0 40px 37px;
+}
+
+
+
+.envoo-admin-content .content-top {
+    background: none repeat scroll 0 0 #fafafa;
+    border:none!important;
+    padding: 42px 0 29px;
+}
+
+.envoo-admin-content .content-top:first-child {
+        display: none;
+}
+
+.envoo-admin form {
+  margin: 0;
+}
+
+.form_fields {
+	border: 1px solid #e3e3e3;
+	border-style: solid none none none;
+        padding: 29px 0;
+        margin: 29px 0 29px 17px;
+}
+.form_fields textarea {
+    margin-top: 0;
+    margin-left: 58px;
+    width: 335px;
+    max-width: 335px;
+}
+.envoo-admin input[type="submit"], .envoo-admin input.upload_image_button, input[type=submit].dummy, .content-inner input.dummy[type="submit"] {
+    background: none repeat scroll 0 0 #008dce;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14px;
+    margin: 0 60px 0 0;
+    padding: 10px;
+    -webkit-transition: all 200ms ease-out 0.1s;
+    -moz-transition: all 200ms ease-out 0.1s;
+    -o-transition: all 200ms ease-out 0.1s;
+    transition: all 200ms ease-out 0.1s;
+}
+
+.envoo-admin button.btn-std {
+    font-size: 14px;
+    background: none repeat scroll 0 0 #008dce;
+    border: medium none;
+    color: #fff;
+    padding: 10px 20px;
+    -webkit-transition: all 200ms ease-out 0.1s;
+    -moz-transition: all 200ms ease-out 0.1s;
+    -o-transition: all 200ms ease-out 0.1s;
+    transition: all 200ms ease-out 0.1s;
+}
+.envoo-admin button.btn-std i {
+    margin-right: 10px;
+}
+
+.envoo-admin span.greybtn {
+    background: none repeat scroll 0 0 #87867b;
+    color: #fff;
+    line-height: 37px;
+    display: block;
+    width: 135px;
+    text-align: center;
+    float: left;
+}
+
+.envoo-dummy img {
+    vertical-align: bottom;
+}
+
+ .envoo-admin input.upload_image_button, input.dummy[type="submit"] {
+    background: none repeat scroll 0 0 #008dce;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+    margin: 0 23% 0 0;
+    padding: 10px 20%;
+}
+
+
+.envoo-admin button.button.submit  {
+    background: none repeat scroll 0 0 #008dce;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14px;
+    height: 37px;
+    line-height: 17px;
+    margin: 0 60px 0 0;
+    padding: 10px;
+    border-radius: 0;
+    -webkit-transition: all 200ms ease-out 0.1s;
+    -moz-transition: all 200ms ease-out 0.1s;
+    -o-transition: all 200ms ease-out 0.1s;
+    transition: all 200ms ease-out 0.1s;
+
+}
+
+.envoo-admin a.button {
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 17px;
+    margin: 15px 15px 15px 0;
+    padding: 12px 25px;
+}
+.btn.btn-sm {
+ font-family: Cabin;
+ font-size: 14px;
+}
+
+button.button.submit:hover, button.button.submit:active, button.button.submit:focus, input[type=submit].dummy:hover, input[type=submit].dummy:focus, input[type=submit].dummy:active
+{
+background: none repeat scroll 0 0 grey;
+color: #fff;
+}
+
+button.button.submit i {
+    padding-right: 10px;
+}
+
+.envoo-admin a.button.green{
+    background: #75b93e;
+}
+
+.envoo-admin a.button.grey{
+    background: #77776f;
+}
+
+.envoo-admin a.button.red{
+    background: #e04243;
+}
+
+.envoo-admin div.inputlike {
+    border: 1px solid #e7e7e7;
+    display: inline-block;
+    padding: 10px;
+    margin: 15px 15px 15px 0;
+}
+
+.envoo-admin-content .content-inner input[type=submit]  {
+    margin: 90px 13px 25px 0;
+}
+.envoo-admin input[type=radio] {
+    display: none;
+}
+.style-images-wrapper {
+	margin: 0 0 0 41px;
+}
+.style-images {
+    margin: 36px 0 0 36px;
+    border: 2px solid #efefef;
+}
+
+.envoo-admin h3 {
+    background: none repeat scroll 0 0 #008dce;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 20px 0;
+    padding: 10px 10px 10px 18px;
+}
+.envoo-admin h3:before
+{ content:"\f0db";
+    font-family: FontAwesome;
+        padding-right: 15px;
+}
+
+
+.envoo-admin h4 {
+    color: #87867b;
+    font-family: myriad pro;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0 6px;
+    padding: 20px 0 0;
+    text-transform: uppercase;
+}
+
+
+.style-images:hover {
+    border: 2px solid #2187c0;
+    cursor: pointer;
+}
+.envoo-admin hr {
+	border: 1px solid #e3e3e3;
+	border-style: solid none none none;
+	margin: 10px 0;
+	padding: 0;
+    clear: both;
+}
+.envoo-admin input[type="file"], .envoo-admin input[type="text"], .envoo-admin select, .envoo-admin textarea {
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    color: #666;
+    margin: 0;
+    max-width: 335px;
+    padding: 8px 5px;
+}
+.envoo-admin textarea {
+    height: 100px;
+}
+
+.envoo-admin .anps-textarea.fullwidth textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.form_fields input[type=text],
+.form_fields select {
+    margin: 0 0 0 58px;
+}
+.wp-admin select {
+	padding: 7px;
+	height: auto;
+}
+
+.envoo-admin form div.content-inner div.input.fullwidth > input {
+ width: 100%;
+}
+
+.envoo-admin-content .content-inner input.dummy[type="submit"] {
+    color: #fff;
+    float: left;
+    line-height: 17px;
+    margin: 0;
+    min-width: 104px;
+    text-align: center;
+}
+.envoo-admin-content .content-inner input.martop.dummy[type="submit"] {
+    margin: 10px 0 0;
+}
+
+.envoo-admin-content .content-inner input[type=submit].dummy:hover, .envoo-admin-content .content-inner input[type=submit]:focus {
+    background: #008dce;
+}
+
+.envoo-admin-content a.launch {
+    background: none repeat scroll 0 0 #008dce;
+    color: #fff;
+    float: left;
+    line-height: 19px;
+    margin: 0;
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+    width: 140px;
+}
+.envoo-admin-content a.launch:hover, .envoo-admin-content a.launch:focus {
+    background: #00608C;
+}
+
+.envoo-admin-content.dummy_content {
+    padding-bottom: 100px;
+}
+
+#heading_bg,
+#favicon,
+#custom_pattern,
+#logo,
+#sticky-logo,
+#icon_0,
+#icon_1,
+#icon_2,
+#icon_3,
+#hover_icon_0,
+#hover_icon_1,
+#hover_icon_2,
+#search_heading_bg {
+	width: 243px;
+}
+.envoo-admin .preview {
+    align-items: center;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: calc(100% - 30px);
+}
+.envoo-admin .preview img {
+    height: auto;
+}
+
+.envoo-admin label {
+    color: #333;
+    cursor: auto;
+    display: block;
+    font-size: 12px;
+    margin: 33px 0 20px;
+}
+.form_fields label {
+    margin: 29px 0 29px 58px;
+}
+.envoo-admin input[type=checkbox] {
+    margin: 0;
+}
+.envoo-admin input.add,
+.envoo-admin input.remove {
+    color: #000000;
+    font-size: 30px;
+    background: none;
+    border: 0px;
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    cursor: pointer;
+}
+.envoo-admin input.add {
+    right: 30px;
+}
+.remove-add {
+    position: relative;
+}
+.envoo-admin input.remove {
+    margin: -2px 0 0 20px;
+}
+.envoo-admin p {
+    color: #87867b;
+    font-size: 12px;
+    margin: 7px 0;
+    clear: both;
+
+}
+.preview {
+    float: none;
+    margin: 0;
+    min-height: 30px;
+}
+.envoo-admin textarea {
+    margin-top: 17px;
+    width: 337px;
+    margin-left: 74px;
+}
+.admin-patern-select {
+	margin: 10px 0;
+    padding: 0;
+}
+.admin-patern-select:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.admin-patern-select img {
+	width: 40px;
+	height: 40px;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 1px 3px 4px 3px;
+}
+.admin-patern-select img:nth-of-type(8n) {
+	clear: both;
+}
+.admin-patern-select img#selected-pattern, .admin-patern-select img:hover {
+    border: 2px solid #2187c0;
+    margin: 0 2px 3px 2px;
+    cursor: pointer;
+}
+.patern-type input {
+	margin: 0 5px 0 0;
+}
+.color-pick-color {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 37px;
+    margin: 0 3% 0 0;
+    min-width: 40px;
+    width: 18%;
+}
+.envoo-admin input.color-pick {
+    margin: 0;
+    width: 63%;
+}
+#responsive-on-demand {
+    display: none;
+}
+
+.content-inner .wp-editor-container {
+    margin-left: 0;
+}
+.content-inner .wp-editor-container {
+    box-sizing: border-box;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.wp-editor-wrap {
+    margin-right: 30px;
+    position: relative;
+}
+
+
+.envoo-admin-content form .input {
+    float: left;
+    margin: 0;
+/*    padding: 0 5% 0 0;
+    width: 43%;*/
+    min-height: 100px;
+        padding-top: 20px;
+}
+
+.envoo-admin-content form .input.onehalf {
+    float: left;
+    margin: 0;
+/*    padding: 0 5% 0 0;
+    width: 43%;*/
+    min-height: 100px;
+        padding-top: 20px;
+}
+
+.envoo-admin-content form .input.onequarter {
+    float: left;
+    margin: 0;
+/*    padding: 0 3% 0 0;
+    width: 22%;*/
+    min-height: 100px;
+    padding-top: 20px;
+}
+
+
+
+
+.envoo-admin label {
+    color: #87867b;
+    cursor: auto;
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom:  15px;
+}
+
+.envoo-admin input
+{
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+
+.envoo-admin .info
+{
+    padding-top: 20px;
+}
+
+
+.envoo-admin span.colorspan {
+    display: block;
+    height: 20px;
+    margin-right: 10%;
+    width: 50%;
+    float: left;
+}
+
+.envoo-admin span.colorspantext {
+    display: block;
+    float: left;
+    height: 16px;
+    padding-top: 4px;
+}
+
+.input.palette input:checked + span
+{
+    border: 1px solid #ccc;
+}
+
+.palette input + div {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 8px 8px 8px 9px;
+}
+
+.palette input:checked + div{ /* (CHECKED) STYLES */
+  background: #f1f1f1;
+}
+
+.envoo-admin   .onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+.envoo-admin    .onoffswitch-checkbox {
+    display: none;
+    }
+.envoo-admin .onoffswitch-label {
+    border: 0 solid #999999;
+    border-radius: 0;
+    cursor: pointer !important;
+    display: block;
+    float: right;
+    height: 30px;
+    margin-right: 100px;
+    overflow: hidden;
+    padding: 0 !important;
+    width: 90px;
+}
+ .envoo-admin   .onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+ .envoo-admin   .onoffswitch-inner > span {
+    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 13px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+.envoo-admin    .onoffswitch-inner .onoffswitch-active {
+    padding-left: 12px;
+    background-color: #C2C2C2; color: #FFFFFF;
+    }
+.envoo-admin    .onoffswitch-inner .onoffswitch-inactive {
+    padding-right: 12px;
+    background-color: #C2C2C2; color: #FFFFFF;
+    text-align: right;
+    }
+ .envoo-admin   .onoffswitch-switch {
+    display: block; width: 40px; margin: 0px; text-align: center;
+    border: 0px solid #999999;border-radius: 0px;
+    position: absolute; top: 0; bottom: 0;
+    }
+.envoo-admin    .onoffswitch-active .onoffswitch-switch {
+    background: #27AE60; left: 0;
+    }
+ .envoo-admin   .onoffswitch-inactive .onoffswitch-switch {
+    background: #C0392B; right: 0;
+    }
+  .envoo-admin  .onoffswitch-active .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; left: 40px;
+    border-style: solid; border-color: #27AE60 transparent transparent #27AE60; border-width: 16px 9px;
+    }
+ .envoo-admin   .onoffswitch-inactive .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; right: 40px;
+    border-style: solid; border-color: transparent #C0392B #C0392B transparent; border-width: 16px 9px;
+    }
+.envoo-admin    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    }
+
+
+#pattern-select-wrapper, #patern-type-wrapper, #custom-patern-wrapper
+{
+    transition: height 400ms;
+}
+
+
+/*Pen specific*/
+body.wp-admin #anps_subtitle_meta .inside input, body.wp-admin div#anps_subtitle_meta div.inside div.wp-picker-container{
+    margin: 10px;
+}
+
+body.wp-admin div#anps_subtitle_meta input#anps_subtitle {
+    padding: 10px;
+    min-width: 50%;
+}
+
+body.wp-admin div#anps_subtitle_meta.postbox div.inside div.wp-picker-container a.wp-color-result
+{
+vertical-align: top;
+padding: 10px;
+}
+
+body.wp-admin div#anps_subtitle_meta.postbox .wp-color-result:after {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+body.wp-admin #anps_heading_meta input[type="checkbox"], body.wp-admin #anps_features_meta input[type="checkbox"] {
+    margin: 10px;
+    padding: 0;
+}
+
+body.wp-admin div#sbg_box div.inside div.sbg_container ul li span {
+    display: inline-block;
+    min-width: 50px;
+}
+
+
+
+/*backend widgets css*/
+#product_images_container .product_images li.image
+{
+    width: 20%;
+    padding: 3px;
+    display: inline-block;
+}
+
+#product_images_container .product_images .image img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
+.envoo-admin .envoo-admin-content.theme_style h3:before,
+.envoo-admin .envoo-admin-content.style_view  h3:before {
+    content: "\f043";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.options_media h3:before {
+    content: "\f03e";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.options_slider h3:before {
+    content: "\f185";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.options_page_setup h3:before {
+    content: "\f013";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.google_maps h3:before {
+    content: "\f279";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.options_social_accounts h3:before {
+    content: "";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.dummy_content h3:before {
+    content: "\f16b";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.theme_style_google_font h3:before {
+    content: "\f1a0";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.theme_style_custom_font h3:before {
+    content: "\f034";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.theme_upgrade h3:before {
+    content: "\f0ed";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .envoo-admin-content.system_req h3:before {
+    content: "\f0ed";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+.envoo-admin .import_export h3:before, .envoo-admin .import_export_widgets h3:before {
+    content: "\f1c9";
+    font-family: FontAwesome;
+    padding-right: 15px;
+}
+
+
+.envoo-admin .envoo-admin-content.theme_upgrade h3.action-required:before{
+    display: none;
+}
+
+.envoo-admin h3.action-required {
+    background: none repeat scroll 0 0 #bbb9a6;
+    margin: 0;
+    padding: 17px 17px 17px 45px;
+}
+
+/*slider backend*/
+
+
+.envoo-admin .slider_single img {
+    border: medium none;
+    vertical-align: middle;
+}
+
+
+
+/* upload button for logos*/
+
+div.envoo-admin-content.options_media input.upload_image_button, #custom-patern-wrapper .upload_image_button, .envoo-admin #custom-header-bg-vertical-wrap .upload_image_button {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20px;
+    margin-right: 5%;
+    margin-top: 1px;
+    max-width: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 105px;
+    text-align: center;
+}
+
+div.envoo-admin-content.options_media form input#logo, div.envoo-admin-content.options_media form input#sticky_logo, div.envoo-admin div.envoo-admin-content.options_media form input#favicon, .envoo-admin #heading_bg, .envoo-admin #search_heading_bg, .envoo-admin #custom_pattern, .envoo-admin #custom-header-bg-vertical {
+    max-width: 50%;
+    float: left;
+}
+
+div.envoo-admin-content.options_media form div.content-inner div.input.floatleft.onehalf p.fullwidth {
+    clear: both;
+}
+
+/*disabled select*/
+select[disabled] {
+    background: none repeat scroll 0 0 #fcfbf4;
+}
+
+
+/*downloads*/
+
+div.anps_download textarea {
+    min-width: 280px;
+    min-height: 150px;
+}
+
+
+.envoo-admin input.align-center {
+    margin-right: 13px;
+    max-width: 120px;
+    text-align: center;
+}
+
+
+/*textarea fix - text input*/
+.wp-editor-container textarea.wp-editor-area {
+    box-shadow: none;
+    margin: 0;
+    min-width: 100%;
+    width: 100%;
+}
+
+/*headings style fix*/
+.envoo-admin-content h3 {
+    font-family: Arial;
+}
+
+.envoo-admin input.size + span {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+/*heading style images*/
+#headerstyle label > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+
+}
+
+#headerstyle label > input + img{ /* IMAGE STYLES */
+    cursor:pointer;
+    border:1px solid transparent;
+}
+#headerstyle label > input:checked + img{ /* (CHECKED) IMAGE STYLES */
+    border:1px solid #87867b;
+}
+
+#headerstyle label:hover > img {
+    border:1px solid #ccc;
+}
+
+
+textarea#anps_custom_css.fullwidth {
+    max-width: 96%;
+    padding: 20px;
+    margin-left: 0;
+    height: 500px;
+}
+
+.absolute.fullscreen.importspin
+{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(255,255,255,0.8);
+}
+.absolute.fullscreen.importspin > .table {
+    display: table;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.absolute.fullscreen.importspin > .table > .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.messagebox {
+    border: 1px solid #87867b;
+    float: none;
+    margin: auto;
+    max-height: 400px;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,0.8);
+}
+
+.absolute.fullscreen.importspin {
+    visibility: hidden;
+    opacity:0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.absolute.fullscreen.importspin.visible {
+    visibility: visible;
+    opacity:1;
+}
+
+.dummy_content pre {
+    text-align: center;
+}
+
+h2.small_lh {
+line-height: 20px;
+padding-top: 10px;
+}
+
+span#version {
+    color: #008dce;
+    font-size: 12px;
+    padding-left: 2px;
+}
+
+
+.width-105 {
+max-width: 105px!important;
+width: 105px!important;
+margin-left: 20px!important;
+margin-right: 0!important;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 10px!important;
+padding-right: 10px!important;
+float: none!important;
+display: inline-block!important;
+}
+
+
+body.rtl .envoo-admin, body.rtl .envoo-admin * {
+    direction: ltr!important;
+}
+
+body.rtl .envoo-admin {
+    float: right;
+}
+
+
+.envoo-admin .content-bottom {
+    background: none repeat scroll 0 0 #fcfbf4;
+    border: medium none !important;
+    margin-top: 0;
+    padding: 30px 0;
+}
+
+.envoo-admin .alert {
+    color: #e20000;
+    max-width: 85%;
+    padding: 10px;
+}
+.envoo-admin .twothirds .alert {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 45px;
+}
+
+.eightyfive {
+      max-width: 85%;
+}
+
+.envoo-admin .alert i {
+    font-size: 30px;
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.envoo-admin-content .content-inner .save input[type="submit"] {
+    margin: 40px 13px 25px 0;
+}
+
+.content-bottom input.green[type="submit"] {
+    background: none repeat scroll 0 0 #62be00;
+    margin-top: 5px;
+    padding: 13px 35px;
+}
+img.shadow {
+    -webkit-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.07);
+}
+
+.envoo-admin-content .envoo-dummy div.input {
+        margin-right:30px;
+}
+
+.demotitle h4 {
+    background: none repeat scroll 0 0 #2e6296;
+    color: #fff;
+    display: block;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 37px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    text-align: left;
+    text-transform: none;
+}
+
+
+select.anps_widget_fontawesome {
+    font-family: FontAwesome;
+}
+
+
+div.font_subsets {
+  padding-top: 5px;
+  color: #87867b;
+}
+
+
+.envoo-admin .font_subsets input[type=checkbox]  {
+    margin: 5px 10px 5px 0;
+}
+
+.envoo-admin .preview img {
+    max-height: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+}
+
+body .anps-editor-wrapper {
+    height: 300px;
+    position: relative;
+    width: 96%;
+}
+
+body .anps-editor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* System Requirements */
+.system-req {
+  border-top: 1px solid #efefef;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 30px;
+  text-align: left;
+  width: 100%; }
+  .system-req td {
+    color: #89d024; }
+  .system-req td, .system-req th {
+    padding: 11px 15px; }
+  .system-req tbody th {
+    width: 160px; }
+  .system-req tbody tr:nth-of-type(2n-1) {
+    background-color: #efefef; }
+  .system-req .invalid .system-req-current, .system-req .invalid .system-req-icon {
+    color: #ff0000; }
+  .system-req th {
+    font-weight: normal; }
+
+/* Dummy Content Alert */
+.envoo-dummy .alert {
+  background: #f0f0f0;
+  border: 1px solid #dcdcdc;
+  color: #9d9d9d;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "PT Sans", sans-serif;
+  border-radius: 4px;
+  padding-left: 40px;
+  min-height: 22px;
+  line-height: 22px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .envoo-dummy .alert i, .envoo-dummy .alert:before {
+    font-size: 17px;
+    color: inherit;
+    padding: 0px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    line-height: 20px; }
+  .alert:before {
+    display: none; }
+
+.envoo-dummy .alert-danger-style-2 {
+  border: none;
+  color: #fff;
+  background: #fa7267; }
+
+.import-success-title {
+    margin-top: 40px;
+}
+
+.import-success-title,
+.import-success-subtitle {
+    text-align: center;
+}
+
+/* Theme Upgrade */
+
+.envoo-admin .envoo-admin-content.theme_upgrade p {
+    font-size: 14px;
+}
+
+.envoo-admin .envoo-admin-content.theme_upgrade p + p {
+    margin-top: 20px;
+}
+
+.envoo-admin .envoo-admin-content.theme_upgrade ul {
+    list-style: disc;
+    margin-top: 20px;
+    padding-left: 30px;
+}

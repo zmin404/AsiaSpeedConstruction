@@ -1,0 +1,369 @@
+/*Sidebar menu*/
+
+section.container.left-sidebar section {
+    float: right;
+    margin: 0 0px 0 20px;
+}
+
+section.container-menu {
+    background: #fff;
+    width: 100%;
+    padding: 0;
+    border: 1px solid #EEE;
+        border-radius: 3px;
+    text-align: center;
+}
+
+section.container-menu a {
+    display: block;
+    padding: 13px 0;
+    width:  100%;
+}
+
+section.container-menu hr {
+    border: 1px solid #eee;
+    border-style: solid none none none;
+    width: 146px;
+    margin: 0 auto;
+}
+
+/*Content with shadow*/
+
+section.container .content-with-shadow {
+        left: -95px;
+        content: "";
+        background: url(images/bannerCubesShadowSidebarOn.png) no-repeat;
+            background-color: #f7f7f7;
+        width: 669px;
+        height: 67px;
+        position: absolute;
+            bottom: -33px;
+            left: -2px;
+            z-index: -1;
+        opacity: 0.2;
+        filter: alpha(opacity=0);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=20)";
+}
+
+/*Readmore shortcode*/
+
+section.container .readmore-wrapper article {
+    padding: 20px 35px 30px 35px;
+}
+
+section.container .readmore-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+section.container .readmore-wrapper a.footer-a {
+    left: 340px;
+}
+
+section.container .readmore-wrapper article:first-of-type a.footer-a {
+    left: 110px;
+}
+
+section.container .readmore-wrapper article:last-of-type a.footer-a {
+    left: 560px;
+}
+
+
+
+/*Recent projects shortcode*/
+
+section.container .recent-projects-wrapper a {
+    margin: 36px 36px 0 36px;
+}
+
+section.container .recent-projects-wrapper a:nth-of-type(3n+1) {
+    margin: 36px 36px 0 36px;
+}
+
+section.container .recent-projects-wrapper a:nth-of-type(3n) {
+    margin: 36px 36px 0 36px;
+}
+
+section.container .recent-projects-wrapper a:nth-of-type(even) {
+    margin: 36px 36px 0 0;
+}
+
+/*Content with menu*/
+
+section.container #selected-submenu, #selected-submenu-2 {
+    width: 199px;
+}
+
+section.container .content-menu-over {
+     width: 200px;
+}
+
+section.container .content-menu li {
+    width: 155px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin: 13px 0 0 0;
+    padding: 11px 0 10px 0;
+    border: 1px solid #EEE;
+        border-style: solid solid solid none;
+    box-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+}
+
+
+
+/*Iconstrip*/
+
+section.container .iconstrip img {
+    padding: 0 60px;
+}
+
+
+
+/*Google map*/
+
+section.container #map {
+    width: 100%;
+}
+
+
+
+/*Contact form shortcode*/
+
+section.container .left-form-last, section.container .left-form {
+    width: 568px;
+    margin-left: 0;
+}
+
+section.container #contact-form input[type="text"], section.container #contact-form textarea {
+    width: 545px;
+}
+
+/*Slider shortcode*/
+
+section.container #slider-wrapper {
+    width: 666px;
+}
+
+
+
+.left-sidebar aside section.container-quotes-image, .left-sidebar section.container-twitter-image {
+    left: -35px;
+}
+
+.left-sidebar aside .post p {
+    float: left;
+    border-style: none solid none none;
+    padding-left: 40px;
+    width: 82px;
+}
+
+.left-sidebar aside .posts .post .image img {
+    float: right;
+}
+
+.left-sidebar aside .day {
+    left: -25px;
+}
+
+.left-sidebar aside .month {
+    left: 0px;
+}
+
+.left-sidebar #s {
+    width: 183px;
+}
+
+.left-sidebar #searchsubmit {
+    right: 10px;
+}
+
+@media only screen and (max-width: 959px) {
+    
+    /*Readmore shortcode*/
+    section.container .readmore-wrapper {
+        width: 435px;
+    }
+    
+    section.container .readmore-wrapper header  {
+        width: 380px;
+    }
+    
+    section.container .readmore-wrapper article {
+        width: 365px;
+    }
+    
+    section.container .readmore-wrapper p {
+        width: 365px;
+    }
+    
+    section.container .content-with-shadow {
+        width: 468px;
+        background: url(images/bannerCubesShadowSidebarOn2.png) no-repeat;
+        left: -18px;
+    }
+    
+    
+    /*Recent projects*/
+    
+    section.container .recent-projects-wrapper {
+        width: 435px;
+        padding:  0;
+    }
+    
+    section.container .recent-projects-wrapper a, section.container .recent-projects-wrapper a:nth-of-type(3n+1), section.container .recent-projects-wrapper a:nth-of-type(3n), section.container .recent-projects-wrapper a:nth-of-type(even), 
+    section.container .recent-projects-wrapper a:nth-of-type(2n+1) {
+        margin: 26px 0 0 0;
+        width: 200px;
+        height: 98px;
+    }
+
+    section.container .recent-projects-wrapper a img {
+        width: 200px;
+        height: auto;
+    }
+    
+    section.container .recent-projects-wrapper a .magnifier {
+        height: 98px;
+    }
+    
+    section.container .recent-projects-wrapper a .magnifier div {
+        margin: 27px 20px;
+        width: 86px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    section.container .recent-projects-wrapper a .magnifier div div {
+        top: -27px;
+        right: -20px;
+    }
+    
+    section.container .recent-projects-wrapper a:nth-of-type(even) {
+        margin: 26px 0 0 33px;
+    }
+    
+    
+    section.container .content-menu {
+        display: none;
+    }
+
+
+    section.container #content-with-menu {
+        margin: 35px 0 0 0 !important;
+        text-align: center;
+        padding: 10px 45px 20px 51px;
+    }
+
+    
+    section.container #content-with-menu #content-left-row, 
+    section.container #content-with-menu #content-right-row{
+
+        float: none;
+        width: 250px;
+        margin: 0;
+
+    }
+    
+
+    section.container .small-menu-heading {
+        display: block;
+        width: 339px;
+        float: none;
+        font-size: 18px;
+        border: 1px solid #f2f2f2; 
+        border-style: solid none none none;
+        text-align: center;
+        padding: 20px 0 0 0;
+        margin: 0 0 15px 0;
+        font-size: 15px;
+            font-family: 'PT Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+    }
+
+     section.container .content .small-menu-heading:first-of-type {
+        border: none !important;
+        border-style: none !important;
+    }
+
+    section.container .content-half,
+    section.container .content-third,
+    section.container .content-quarter,
+    section.container .content-two-third {
+        float: none;
+        width: 100%;
+        margin:  20px 0 0 0;
+    }
+    
+    section.container #menu-content-1, 
+    section.container #menu-content-2, 
+    section.container #menu-content-3, 
+    section.container #menu-content-4 {
+        padding: 20px 0;
+        border: 1px solid #f2f2f2; 
+        border-style: solid none none none;
+    }
+    
+    section.container .left {
+        width: 332px;        
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    
+    section.container .alignleft {
+        float: none;
+    }
+    
+    
+    
+    /*Iconstrip*/
+
+    section.container .iconstrip img {
+        padding: 0 25px;
+    }
+    
+    
+    
+    /*Contact form shortcode*/
+    
+    section.container #contact-form {
+        width: 260px;
+    }
+    
+    section.container .left-form-last, section.container .left-form {
+        width: 315px;
+        margin-left: 0;
+    }
+
+    section.container #contact-form input[type="text"], section.container #contact-form textarea {
+        width: 305px;
+    }
+    
+    section.container #contact-form div.wrap, section.container #contact-form div.wrap-area {
+        width: 333px;
+    }
+    
+    section.container .success-2 {
+        width: 271px;
+        margin-left: 2px;
+    }
+    
+    /*Contact info shortcode*/
+    
+    section.container .contact-info-wrapper {
+        margin-right: 30px;
+        width: 245px;
+        text-align: center;
+    }
+    
+    section.container .contact-info-wrapper table  {
+        width: 200px;
+        margin-right: 40px;
+        float: right;
+        text-align: left;
+    }
+}
